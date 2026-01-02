@@ -1,0 +1,6 @@
+{
+	"spell.tides-of-war.spells.summonGhost.description.advanced" : "{中级召唤恶灵}\r\n\r\n召唤一队恶灵。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.tides-of-war.spells.summonGhost.description.basic" : "{初级召唤恶灵}\r\n\r\n召唤一队恶灵。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.tides-of-war.spells.summonGhost.description.expert" : "{高级召唤恶灵}\r\n\r\n召唤一队恶灵。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.tides-of-war.spells.summonGhost.description.none" : "{召唤恶灵}\r\n\r\n召唤一队恶灵。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。"
+}

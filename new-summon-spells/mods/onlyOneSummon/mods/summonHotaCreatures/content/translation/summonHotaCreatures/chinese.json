@@ -1,0 +1,12 @@
+{
+	"spell.new-summon-spells.summonhotacreatures.summonNymph.description.advanced" : "{中级召唤自然精灵}\r\n\r\n召唤一队自然精灵。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.new-summon-spells.summonhotacreatures.summonNymph.description.basic" : "{初级召唤自然精灵}\r\n\r\n召唤一队自然精灵。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.new-summon-spells.summonhotacreatures.summonNymph.description.expert" : "{高级召唤自然精灵}\r\n\r\n召唤一队自然精灵。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.new-summon-spells.summonhotacreatures.summonNymph.description.none" : "{召唤自然精灵}\r\n\r\n召唤一队自然精灵。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.new-summon-spells.summonhotacreatures.summonNymph.name" : "召唤自然精灵",
+	"spell.new-summon-spells.summonhotacreatures.summonStormbird.description.advanced" : "{中级召唤暴风鸟}\r\n\r\n召唤一队暴风鸟。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.new-summon-spells.summonhotacreatures.summonStormbird.description.basic" : "{初级召唤暴风鸟}\r\n\r\n召唤一队暴风鸟。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.new-summon-spells.summonhotacreatures.summonStormbird.description.expert" : "{高级召唤暴风鸟}\r\n\r\n召唤一队暴风鸟。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.new-summon-spells.summonhotacreatures.summonStormbird.description.none" : "{召唤暴风鸟}\r\n\r\n召唤一队暴风鸟。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.new-summon-spells.summonhotacreatures.summonStormbird.name" : "召唤暴风鸟"
+}

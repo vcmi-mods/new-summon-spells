@@ -1,0 +1,6 @@
+{
+	"spell.asylum-town.summonJester.description.advanced" : "{中级召唤小丑信使}\r\n\r\n召唤一队小丑信使。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.asylum-town.summonJester.description.basic" : "{初级召唤小丑信使}\r\n\r\n召唤一队小丑信使。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.asylum-town.summonJester.description.expert" : "{高级召唤小丑信使}\r\n\r\n召唤一队小丑信使。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。",
+	"spell.asylum-town.summonJester.description.none" : "{召唤小丑信使}\r\n\r\n召唤一队小丑信使。\r\n\r\n一旦召唤成功，就不能再召唤其他生物。"
+}

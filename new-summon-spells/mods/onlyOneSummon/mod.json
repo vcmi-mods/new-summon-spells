@@ -22,6 +22,13 @@
         "new-summon-spells.summonHotaCreatures",
         "new-summon-spells.summonToWCreatures"
     ],
+	"chinese":{
+	    "name" : "单类型召唤",
+	    "description" : "这个模组改变了召唤魔法的设置。现在只有一种类型的单位可以在战斗中被召唤。",
+	    "translations" : [
+	        "translation/onlyOneSummon/chinese.json"
+	    ]
+	},
 	"czech":{
 	    "name" : "Přivolání pouze jednoho typu",
 	    "description" : "Tato modifikace mění nastavení přivolávacích kouzel. Nyní je možné přivolat pouze jeden typ jednotky během bitvy.",

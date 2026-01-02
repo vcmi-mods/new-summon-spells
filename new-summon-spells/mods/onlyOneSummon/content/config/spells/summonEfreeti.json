@@ -1,5 +1,5 @@
 {
-    "new-summon-spells:summonEfreet": {
+    "new-summon-spells:summonEfreeti": {
         "levels": {
             "base": {
                 "description": "{Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, no other creatures can be summoned.",

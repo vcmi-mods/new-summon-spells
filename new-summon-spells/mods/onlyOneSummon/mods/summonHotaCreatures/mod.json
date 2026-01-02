@@ -13,12 +13,20 @@
 	],
     "depends": 
     [
-		"new-summon-spells.summonhotacreatures"
+		"new-summon-spells.summonhotacreatures",
+        "bota.cove"
     ],
 	"softDepends" :
     [
         "new-summon-spells.summonHotaCreatures"
     ],
+    "chinese":{
+        "name" : "召唤深渊号角生物",
+		"description" : "两个召唤法术：自然精灵和暴风鸟。施放一个后，下回合无法施放另一个。",
+	    "translations" : [
+	        "translation/summonHotaCreatures/chinese.json"
+	    ]
+	},
 	"czech":{
 		"name" : "Summon HotA Creatures",
 		"description" : "Two summoning spells: Nymphs and Stormbirds. After casting, another summon spell can be casted in next turn.",

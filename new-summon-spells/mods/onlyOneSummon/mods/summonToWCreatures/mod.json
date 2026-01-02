@@ -18,6 +18,13 @@
     [
         "new-summon-spells.summonToWCreatures"
     ],
+    "chinese":{
+		"name" : "召唤战争之潮生物",
+		"description" : "改变召唤恶灵的描述和互斥性。",
+	    "translations" : [
+	        "translation/summonToWCreatures/chinese.json"
+	    ]
+	},
 	"czech":{
 		"name" : "Summon ToW Creatures",
 		"description" : "Change Summon Ghosts description and exlusivity",
