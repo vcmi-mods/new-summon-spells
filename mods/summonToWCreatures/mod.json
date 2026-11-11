@@ -18,21 +18,21 @@
 		"name" : "Summon ToW Creatures",
 		"description" : "Change Summon Ghosts description and exlusivity",
 	    "translations" : [
-	        "translation/summonToWCreatures/polish.json"
+	        "translation/polish.json"
 	    ]
 	},
 	"chinese":{
 		"name" : "召唤战争机器生物",
 		"description" : "改变召唤恶灵的描述和互斥性。",
 	    "translations" : [
-	        "translation/summonToWCreatures/chinese.json"
+	        "translation/chinese.json"
 	    ]
 	},
 	"czech":{
 		"name" : "Summon ToW Creatures",
 		"description" : "Change Summon Ghosts description and exlusivity",
 	    "translations" : [
-	        "translation/summonToWCreatures/czech.json"
+	        "translation/czech.json"
 	    ]
 	}
 }

@@ -23,28 +23,28 @@
 	    "name" : "新召唤魔法",
 	    "description" : "新的生物召唤魔法",
 	    "translations" : [
-	        "translation/new-summon-spells/chinese.json"
+	        "translation/chinese.json"
 	    ]
 	},
 	"czech":{
 	    "name" : "Nová přivolávací kouzla",
 	    "description" : "Tato modifikace přidá do hry nová přivolávací kouzla<br/><br/>Andělé<br/>Démoni<br/>Efríti<br/>Džinové<br/>Duchové<br/>Psychičtí elementálové<br/><br/>Standardní kouzla na přivolání elementálů mají upravené vlastnosti tak, aby bylo možné kombinovat více typů přivolávacích kouzel během bitvy<br/><br/>V případě použití s Horn of the Abyss přidá nová přivolávací kouzla<br/><br/>Mořské víly<br/>Dračápi<br/><br/>V případě použití s Tides of War upraví vlastnosti kouzla Strašidla a v kombinaci s Azylem upraví vlastnosti kouzla Šašci",
 	    "translations" : [
-	        "translation/new-summon-spells/czech.json"
+	        "translation/czech.json"
 	    ]
 	},
 	"russian" : {
 		"name" : "Новые заклинания призыва",
 		"description" : "Новые заклинания призыва существ.",
 		"translations" : [
-			"translation/new-summon-spells/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"polish" : {
 		"name" : "Nowe Zaklęcia Przyzwania",
 		"description" : "Nowe zaklęcia przyzwania stworzen",
 		"translations" : [
-			"translation/new-summon-spells/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"spells" :
