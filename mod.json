@@ -3,7 +3,7 @@
     "description": "This modification adds new summoning spells to the game:<br/><br/>Summon Angel<br/>Summon Demon<br/>Summon Efreeti<br/>Summon Genie<br/>Summon Wight<br/>Summon Psychic Elemental<br/><br/>The standard elemental summoning spells have been adjusted to allow combining multiple types of summoning spells during battles.<br/><br/>When used with Horn of the Abyss, it adds new summoning spells<br/><br/>Summon Nymph<br/>Summon Stormbird<br/><br/>When used with Tides of War, it adjusts the properties of the Summon Ghost spell, and in combination with Asylum, it modifies the Summon Jester spell.",
 	"author" : "avatar, Kurek, Igrik (author of similar ERA mod), George King, Aphra.",
 	"contact" : "https://www.forum.acidcave.net/topic.php?TID=2961",
-	"version" : "1.11",
+	"version" : "1.12",
 	"modType" : "Spells",
 	"compatibility" :
 	{
@@ -17,7 +17,8 @@
 		"1.03"   : [ "Chinese translation by CurryUdon" ],
 		"1.04"   : [ "Added submod to change summon spell exclusivity", "Czech translation by George King" ],
 		"1.10"   : [ "Restructured mod with subfolders", "Added Summon Psychic Elemental", "New graphics for Summon Angels and Summon Efreeti" ],
-		"1.11"   : [ "Remove deprecated aiValue entries" ]
+		"1.11"   : [ "Remove deprecated aiValue entries" ],
+		"1.12"   : [ "Updated to VCMI 1.8 format" ]
     },
 	"chinese":{
 	    "name" : "新召唤魔法",
