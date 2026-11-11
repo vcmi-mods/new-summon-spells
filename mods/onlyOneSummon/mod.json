@@ -20,7 +20,8 @@
     [
         "new-summon-spells.summonAsylumCreatures",
         "new-summon-spells.summonHotaCreatures",
-        "new-summon-spells.summonToWCreatures"
+        "new-summon-spells.summonToWCreatures",
+        "hota.gameBalance.spells"
     ],
 	"chinese":{
 	    "name" : "单类型召唤",
