@@ -1,26 +1,26 @@
 {
-    "new-summon-spells:summonWight": {
-        "levels": {
-            "base": {
-                "description": "{Summon Wight}\r\n\r\nAllows you to summon Wights.\r\n\r\nOnce cast, no other creatures can be summoned.",
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": true,
-                        "id": "wight",
-                        "permanent": false,
-                        "type": "core:summon"
-                    }
-                }
-            },
-            "basic": {
-				"description": "{Basic Summon Wight}\r\n\r\nAllows you to summon Wights.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "advanced": {
-				"description": "{Advanced Summon Wight}\r\n\r\nAllows you to summon Wights.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "expert": {
-				"description": "{Expert Summon Wight}\r\n\r\nAllows you to summon Wights.\r\n\r\nOnce cast, no other creatures can be summoned."
-            }
-        }
-    }
+	"new-summon-spells:summonWight" : {
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Wight}\r\n\r\nAllows you to summon Wights.\r\n\r\nOnce cast, no other creatures can be summoned.",
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "wight",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
+			},
+			"basic" : {
+				"description" : "{Basic Summon Wight}\r\n\r\nAllows you to summon Wights.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"advanced" : {
+				"description" : "{Advanced Summon Wight}\r\n\r\nAllows you to summon Wights.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"expert" : {
+				"description" : "{Expert Summon Wight}\r\n\r\nAllows you to summon Wights.\r\n\r\nOnce cast, no other creatures can be summoned."
+			}
+		}
+	}
 }

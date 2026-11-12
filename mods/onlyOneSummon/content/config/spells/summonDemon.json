@@ -1,26 +1,26 @@
 {
-    "new-summon-spells:summonDemon": {
-        "levels": {
-            "base": {
-                "description": "{Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, no other creatures can be summoned.",
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": true,
-                        "id": "demon",
-                        "permanent": false,
-                        "type": "core:summon"
-                    }
-                }
-            },
-            "basic": {
-		"description": "{Basic Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "advanced": {
-		"description": "{Advanced Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "expert": {
-		"description": "{Expert Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, no other creatures can be summoned."
-            }
-        }
-    }
+	"new-summon-spells:summonDemon" : {
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, no other creatures can be summoned.",
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "demon",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
+			},
+			"basic" : {
+				"description" : "{Basic Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"advanced" : {
+				"description" : "{Advanced Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"expert" : {
+				"description" : "{Expert Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, no other creatures can be summoned."
+			}
+		}
+	}
 }

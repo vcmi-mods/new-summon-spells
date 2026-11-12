@@ -1,26 +1,26 @@
 {
-    "new-summon-spells:summonEfreeti": {
-        "levels": {
-            "base": {
-                "description": "{Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, no other creatures can be summoned.",
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": true,
-                        "id": "efreet",
-                        "permanent": false,
-                        "type": "core:summon"
-                    }
-                }
-            },
-            "basic": {
-				"description": "{Basic Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "advanced": {
-				"description": "{Advanced Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "expert": {
-				"description": "{Expert Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, no other creatures can be summoned."
-            }
-        }
-    }
+	"new-summon-spells:summonEfreeti" : {
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, no other creatures can be summoned.",
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "efreet",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
+			},
+			"basic" : {
+				"description" : "{Basic Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"advanced" : {
+				"description" : "{Advanced Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"expert" : {
+				"description" : "{Expert Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, no other creatures can be summoned."
+			}
+		}
+	}
 }

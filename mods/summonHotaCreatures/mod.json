@@ -4,21 +4,18 @@
 	"author" : "avatar, Kurek, Igrik (author of similar ERA mod).",
 	"contact" : "https://www.forum.acidcave.net/topic.php?TID=2961",
 	"version" : "1.00",
-	"modType" : "Compatibility",	
+	"modType" : "Compatibility",
 
-	"chinese":
-	{
+	"chinese" : {
 		"name" : "新的深渊号角生物召唤魔法",
 		"description" : "新的两种召唤魔法：召唤泉水精灵、暴风鸟。施法后，下回合可以施放别的召唤魔法。"
 	},
-	
-	"spells" :
-	[
+
+	"spells" : [
 		"config/spells/summonStormbird",
 		"config/spells/summonNymph"
 	],
-    "depends": 
-    [
+	"depends" : [
 		"hota.cove"
-    ]
+	]
 }

@@ -1,26 +1,26 @@
 {
-    "new-summon-spells.summonhotacreatures:summonStormbird": {
-        "levels": {
-            "base": {
-                "description": "{Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, no other creatures can be summoned.",
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": true,
-                        "id": "hota.cove:stormbird",
-                        "permanent": false,
-                        "type": "core:summon"
-                    }
-                }
-            },
-            "basic": {
-				"description": "{Basic Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "advanced": {
-				"description": "{Advanced Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "expert": {
-				"description": "{Expert Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, no other creatures can be summoned."
-            }
-        }
-    }
+	"new-summon-spells.summonhotacreatures:summonStormbird" : {
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, no other creatures can be summoned.",
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "hota.cove:stormbird",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
+			},
+			"basic" : {
+				"description" : "{Basic Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"advanced" : {
+				"description" : "{Advanced Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"expert" : {
+				"description" : "{Expert Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, no other creatures can be summoned."
+			}
+		}
+	}
 }

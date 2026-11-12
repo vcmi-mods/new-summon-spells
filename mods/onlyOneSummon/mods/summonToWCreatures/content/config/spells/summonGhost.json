@@ -5,24 +5,24 @@
 				"description" : "{Summon Ghost}\r\n\r\nAllows you to summon Ghost.\r\n\r\nOnce cast, no other creatures can be summoned.",
 				"battleEffects" : {
 					"summon" : {
-						"exclusive" :true,
-						"id" :"tides-of-war.neutral-creatures:mdtGhost",
-						"permanent" :false,
-						"type" :"core:summon"
+						"exclusive" : true,
+						"id" : "tides-of-war.neutral-creatures:mdtGhost",
+						"permanent" : false,
+						"type" : "core:summon"
 					}
 				}
 			},
 			"none" : {
-				"description": "{Summon Ghost}\r\n\r\nAllows you to summon Ghost.\r\n\r\nOnce cast, no other creatures can be summoned."
+				"description" : "{Summon Ghost}\r\n\r\nAllows you to summon Ghost.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
 			"basic" : {
-				"description": "{Basic Summon Ghost}\r\n\r\nAllows you to summon Ghost.\r\n\r\nOnce cast, no other creatures can be summoned."
+				"description" : "{Basic Summon Ghost}\r\n\r\nAllows you to summon Ghost.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
 			"advanced" : {
-				"description": "{Advanced Summon Ghost}\r\n\r\nAllows you to summon Ghost.\r\n\r\nOnce cast, no other creatures can be summoned."
+				"description" : "{Advanced Summon Ghost}\r\n\r\nAllows you to summon Ghost.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
 			"expert" : {
-				"description": "{Expert Summon Ghost}\r\n\r\nAllows you to summon Ghost.\r\n\r\nOnce cast, no other creatures can be summoned."
+				"description" : "{Expert Summon Ghost}\r\n\r\nAllows you to summon Ghost.\r\n\r\nOnce cast, no other creatures can be summoned."
 			}
 		}
 	}

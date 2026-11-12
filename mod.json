@@ -1,38 +1,55 @@
 {
-    "name": "New Summoning Spells",
-    "description": "This modification adds new summoning spells to the game:<br/><br/>Summon Angel<br/>Summon Demon<br/>Summon Efreeti<br/>Summon Genie<br/>Summon Wight<br/>Summon Psychic Elemental<br/><br/>The standard elemental summoning spells have been adjusted to allow combining multiple types of summoning spells during battles.<br/><br/>When used with Horn of the Abyss, it adds new summoning spells<br/><br/>Summon Nymph<br/>Summon Stormbird<br/><br/>When used with Tides of War, it adjusts the properties of the Summon Ghost spell, and in combination with Asylum, it modifies the Summon Jester spell.",
+	"name" : "New Summoning Spells",
+	"description" : "This modification adds new summoning spells to the game:<br/><br/>Summon Angel<br/>Summon Demon<br/>Summon Efreeti<br/>Summon Genie<br/>Summon Wight<br/>Summon Psychic Elemental<br/><br/>The standard elemental summoning spells have been adjusted to allow combining multiple types of summoning spells during battles.<br/><br/>When used with Horn of the Abyss, it adds new summoning spells<br/><br/>Summon Nymph<br/>Summon Stormbird<br/><br/>When used with Tides of War, it adjusts the properties of the Summon Ghost spell, and in combination with Asylum, it modifies the Summon Jester spell.",
 	"author" : "avatar, Kurek, Igrik (author of similar ERA mod), George King, Aphra.",
 	"contact" : "https://www.forum.acidcave.net/topic.php?TID=2961",
 	"version" : "1.12",
 	"modType" : "Spells",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
-	},	
-	"changelog" :
-    {		
-		"1.00"   : [ "Initial release" ],
-		"1.01"   : [ "Small fixes" ],
-		"1.02"   : [ "Polish translation added by FallainBlack" ],
-		"1.03"   : [ "Chinese translation by CurryUdon" ],
-		"1.04"   : [ "Added submod to change summon spell exclusivity", "Czech translation by George King" ],
-		"1.10"   : [ "Restructured mod with subfolders", "Added Summon Psychic Elemental", "New graphics for Summon Angels and Summon Efreeti" ],
-		"1.11"   : [ "Remove deprecated aiValue entries" ],
-		"1.12"   : [ "Updated to VCMI 1.8 format" ]
-    },
-	"chinese":{
-	    "name" : "新召唤魔法",
-	    "description" : "新的生物召唤魔法",
-	    "translations" : [
-	        "translation/chinese.json"
-	    ]
 	},
-	"czech":{
-	    "name" : "Nová přivolávací kouzla",
-	    "description" : "Tato modifikace přidá do hry nová přivolávací kouzla<br/><br/>Andělé<br/>Démoni<br/>Efríti<br/>Džinové<br/>Duchové<br/>Psychičtí elementálové<br/><br/>Standardní kouzla na přivolání elementálů mají upravené vlastnosti tak, aby bylo možné kombinovat více typů přivolávacích kouzel během bitvy<br/><br/>V případě použití s Horn of the Abyss přidá nová přivolávací kouzla<br/><br/>Mořské víly<br/>Dračápi<br/><br/>V případě použití s Tides of War upraví vlastnosti kouzla Strašidla a v kombinaci s Azylem upraví vlastnosti kouzla Šašci",
-	    "translations" : [
-	        "translation/czech.json"
-	    ]
+	"changelog" : {
+		"1.00" : [
+			"Initial release"
+		],
+		"1.01" : [
+			"Small fixes"
+		],
+		"1.02" : [
+			"Polish translation added by FallainBlack"
+		],
+		"1.03" : [
+			"Chinese translation by CurryUdon"
+		],
+		"1.04" : [
+			"Added submod to change summon spell exclusivity",
+			"Czech translation by George King"
+		],
+		"1.10" : [
+			"Restructured mod with subfolders",
+			"Added Summon Psychic Elemental",
+			"New graphics for Summon Angels and Summon Efreeti"
+		],
+		"1.11" : [
+			"Remove deprecated aiValue entries"
+		],
+		"1.12" : [
+			"Updated to VCMI 1.8 format"
+		]
+	},
+	"chinese" : {
+		"name" : "新召唤魔法",
+		"description" : "新的生物召唤魔法",
+		"translations" : [
+			"translation/chinese.json"
+		]
+	},
+	"czech" : {
+		"name" : "Nová přivolávací kouzla",
+		"description" : "Tato modifikace přidá do hry nová přivolávací kouzla<br/><br/>Andělé<br/>Démoni<br/>Efríti<br/>Džinové<br/>Duchové<br/>Psychičtí elementálové<br/><br/>Standardní kouzla na přivolání elementálů mají upravené vlastnosti tak, aby bylo možné kombinovat více typů přivolávacích kouzel během bitvy<br/><br/>V případě použití s Horn of the Abyss přidá nová přivolávací kouzla<br/><br/>Mořské víly<br/>Dračápi<br/><br/>V případě použití s Tides of War upraví vlastnosti kouzla Strašidla a v kombinaci s Azylem upraví vlastnosti kouzla Šašci",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"russian" : {
 		"name" : "Новые заклинания призыва",
@@ -48,8 +65,7 @@
 			"translation/polish.json"
 		]
 	},
-	"spells" :
-	[
+	"spells" : [
 		"config/spells/summonAngel",
 		"config/spells/summonGenie",
 		"config/spells/summonDemon",

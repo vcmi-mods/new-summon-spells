@@ -1,26 +1,26 @@
 {
-    "new-summon-spells:summonGenie": {
-        "levels": {
-            "base": {
-                "description": "{Summon Genie}\r\n\r\nAllows you to summon Genies.\r\n\r\nOnce cast, no other creatures can be summoned.",
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": true,
-                        "id": "genie",
-                        "permanent": false,
-                        "type": "core:summon"
-                    }
-                }
-            },
-            "basic": {
-				"description": "{Basic Summon Genie}\r\n\r\nAllows you to summon Genies.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "advanced": {
-				"description": "{Advanced Summon Genie}\r\n\r\nAllows you to summon Genies.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "expert": {
-				"description": "{Expert Summon Genie}\r\n\r\nAllows you to summon Genies.\r\n\r\nOnce cast, no other creatures can be summoned."
-            }
-        }
-    }
+	"new-summon-spells:summonGenie" : {
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Genie}\r\n\r\nAllows you to summon Genies.\r\n\r\nOnce cast, no other creatures can be summoned.",
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "genie",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
+			},
+			"basic" : {
+				"description" : "{Basic Summon Genie}\r\n\r\nAllows you to summon Genies.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"advanced" : {
+				"description" : "{Advanced Summon Genie}\r\n\r\nAllows you to summon Genies.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"expert" : {
+				"description" : "{Expert Summon Genie}\r\n\r\nAllows you to summon Genies.\r\n\r\nOnce cast, no other creatures can be summoned."
+			}
+		}
+	}
 }

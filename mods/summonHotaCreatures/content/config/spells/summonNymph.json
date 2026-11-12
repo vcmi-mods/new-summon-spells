@@ -1,80 +1,80 @@
 {
-    "summonNymph": {
-        "type": "combat",
-        "name": "Nymph",
-        "school": {
-            "air": false,
-            "earth": false,
-            "fire": false,
-            "water": true
-        },
-        "level": 3,
-        "power": 1,
-        "defaultGainChance": 4,
-        "gainChance": {
-            "cove": 10
-        },
-        "flags": {
-            "indifferent": true
-        },
-        "graphics": {
-            "iconBook": "AnotherSummon/nymph_iconBook",
-            "iconScroll": "AnotherSummon/nymph_iconScroll",
-            "iconScenarioBonus": "AnotherSummon/nymph_iconScenario",
-            "iconEffect": "AnotherSummon/nymph_iconEffect"
-        },
-        "animation": {
-            "cast": [
-                "C12SPF0.def"
-            ]
-        },
-        "sounds": {
-            "cast": "SUMNELM"
-        },
-        "targetType": "NO_TARGET",
-        "levels": {
-            "base": {
-                "description": "{Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "range": "X",
-                "cost": 20,
-                "power": 30,
-//				"aiValue": 10,
-                //"targetModifier": {
-                //    "smart": true
-                //},
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": false,
-                        "id": "hota.cove:nymph",
-                        "permanent": false,
-                        //"summonByHealth": true,
-                        "type": "core:summon"
-                    }
-                }
-            },
-            "none": {
-                "cost": 20,
-                "power": 30,
-//				"aiValue": 10
-            },
-            "basic": {
-				"description": "{Basic Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 15,
-                "power": 40,
-//				"aiValue": 11
-            },
-            "advanced": {
-				"description": "{Advanced Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 12,
-                "power": 80,
-//				"aiValue": 12
-            },
-            "expert": {
-				"description": "{Expert Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 9,
-                "power": 120,
-//				"aiValue": 13
-            }
-        }
-    }
+	"summonNymph" : {
+		"type" : "combat",
+		"name" : "Nymph",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
+		},
+		"level" : 3,
+		"power" : 1,
+		"defaultGainChance" : 4,
+		"gainChance" : {
+			"cove" : 10
+		},
+		"flags" : {
+			"indifferent" : true
+		},
+		"graphics" : {
+			"iconBook" : "AnotherSummon/nymph_iconBook",
+			"iconScroll" : "AnotherSummon/nymph_iconScroll",
+			"iconScenarioBonus" : "AnotherSummon/nymph_iconScenario",
+			"iconEffect" : "AnotherSummon/nymph_iconEffect"
+		},
+		"animation" : {
+			"cast" : [
+				"C12SPF0.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "SUMNELM"
+		},
+		"targetType" : "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"range" : "X",
+				"cost" : 20,
+				"power" : 30,
+				//				"aiValue": 10,
+				//"targetModifier": {
+				//    "smart": true
+				//},
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false,
+						"id" : "hota.cove:nymph",
+						"permanent" : false,
+						//"summonByHealth": true,
+						"type" : "core:summon"
+					}
+				}
+			},
+			"none" : {
+				"cost" : 20,
+				"power" : 30
+				//				"aiValue": 10
+			},
+			"basic" : {
+				"description" : "{Basic Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"cost" : 15,
+				"power" : 40
+				//				"aiValue": 11
+			},
+			"advanced" : {
+				"description" : "{Advanced Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"cost" : 12,
+				"power" : 80
+				//				"aiValue": 12
+			},
+			"expert" : {
+				"description" : "{Expert Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"cost" : 9,
+				"power" : 120
+				//				"aiValue": 13
+			}
+		}
+	}
 }

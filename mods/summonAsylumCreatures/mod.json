@@ -6,33 +6,31 @@
 	"version" : "1.00",
 	"modType" : "Compatibility",
 
-	"spells" :
-	[
+	"spells" : [
 		"config/spells/summonJester"
 	],
-    "depends": 
-    [
+	"depends" : [
 		"asylum-town"
-    ],	
-    "chinese":{
+	],
+	"chinese" : {
 		"name" : "召唤梦境生物",
 		"description" : "改变召唤小丑信使的描述和排他性。",
-	    "translations" : [
-	        "translation/chinese.json"
-	    ]
+		"translations" : [
+			"translation/chinese.json"
+		]
 	},
-	"czech":{
+	"czech" : {
 		"name" : "Summon Asylum Creatures",
 		"description" : "Change Summon Jester description and exlusivity",
-	    "translations" : [
-	        "translation/czech.json"
-	    ]
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
-        "polish":{
+	"polish" : {
 		"name" : "Summon Asylum Creatures",
 		"description" : "Change Summon Jester description and exlusivity",
-	    "translations" : [
-	        "translation/polish.json"
-	    ]
+		"translations" : [
+			"translation/polish.json"
+		]
 	}
 }

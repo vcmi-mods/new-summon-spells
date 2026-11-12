@@ -6,33 +6,31 @@
 	"version" : "1.00",
 	"modType" : "Compatibility",
 
-	"spells" :
-	[
+	"spells" : [
 		"config/spells/summonGhost"
 	],
-    "depends": 
-    [
+	"depends" : [
 		"tides-of-war.neutral-creatures"
-    ],
-	"polish":{
+	],
+	"polish" : {
 		"name" : "Summon ToW Creatures",
 		"description" : "Change Summon Ghosts description and exlusivity",
-	    "translations" : [
-	        "translation/polish.json"
-	    ]
+		"translations" : [
+			"translation/polish.json"
+		]
 	},
-	"chinese":{
+	"chinese" : {
 		"name" : "召唤战争机器生物",
 		"description" : "改变召唤恶灵的描述和互斥性。",
-	    "translations" : [
-	        "translation/chinese.json"
-	    ]
+		"translations" : [
+			"translation/chinese.json"
+		]
 	},
-	"czech":{
+	"czech" : {
 		"name" : "Summon ToW Creatures",
 		"description" : "Change Summon Ghosts description and exlusivity",
-	    "translations" : [
-	        "translation/czech.json"
-	    ]
+		"translations" : [
+			"translation/czech.json"
+		]
 	}
 }

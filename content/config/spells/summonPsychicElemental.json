@@ -1,80 +1,80 @@
 {
-    "summonPsychicElemental": {
-        "type": "combat",
-        "name": "Psychic Elemental",
-        "school": {
-            "air": true,
-            "earth": true,
-            "fire": true,
-            "water": true
-        },
-        "level": 5,
-        "power": 1,
-        "defaultGainChance": 4,
-        "gainChance": {
-            "conflux": 10
-        },
-        "flags": {
-            "indifferent": true
-        },
-        "graphics": {
-            "iconBook": "psychicElemental/spellBook",
-            "iconScroll": "psychicElemental/spellScroll",
-            "iconScenarioBonus": "psychicElemental/bonusSpell",
-            "iconEffect": "psychicElemental/spellEffect"
-        },
-        "animation": {
-            "cast": [
-                "C12SPF0.def"
-            ]
-        },
-        "sounds": {
-            "cast": "SUMNELM"
-        },
-        "targetType": "NO_TARGET",
-        "levels": {
-            "base": {
-                "description": "{Summon Psychic Elemental}\r\n\r\nAllows you to summon Psychic Elementals.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "range": "X",
-                "cost": 35,
-                "power": 1,
-//				"aiValue": 10,
-                //"targetModifier": {
-                //    "smart": true
-                //},
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": false,
-                        "id": "psychicElemental",
-                        "permanent": false,
-                        //"summonByHealth": true,
-                        "type": "core:summon"
-                    }
-                }
-            },
-            "none": {
-                "cost": 50,
-                "power": 1,
-//				"aiValue": 10
-            },
-            "basic": {
-				"description": "{Basic Summon Psychic Elemental}\r\n\r\nAllows you to summon Psychic Elementals.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 40,
-                "power": 2,
-//				"aiValue": 10
-            },
-            "advanced": {
-				"description": "{Advanced Summon Psychic Elemental}\r\n\r\nAllows you to summon Psychic Elementals.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 40,
-                "power": 3,
-//				"aiValue": 10
-            },
-            "expert": {
-				"description": "{Expert Summon Psychic Elemental}\r\n\r\nAllows you to summon Psychic Elementals.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 40,
-                "power": 4,
-//				"aiValue": 10
-            }
-        }
-    }
+	"summonPsychicElemental" : {
+		"type" : "combat",
+		"name" : "Psychic Elemental",
+		"school" : {
+			"air" : true,
+			"earth" : true,
+			"fire" : true,
+			"water" : true
+		},
+		"level" : 5,
+		"power" : 1,
+		"defaultGainChance" : 4,
+		"gainChance" : {
+			"conflux" : 10
+		},
+		"flags" : {
+			"indifferent" : true
+		},
+		"graphics" : {
+			"iconBook" : "psychicElemental/spellBook",
+			"iconScroll" : "psychicElemental/spellScroll",
+			"iconScenarioBonus" : "psychicElemental/bonusSpell",
+			"iconEffect" : "psychicElemental/spellEffect"
+		},
+		"animation" : {
+			"cast" : [
+				"C12SPF0.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "SUMNELM"
+		},
+		"targetType" : "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Psychic Elemental}\r\n\r\nAllows you to summon Psychic Elementals.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"range" : "X",
+				"cost" : 35,
+				"power" : 1,
+				//				"aiValue": 10,
+				//"targetModifier": {
+				//    "smart": true
+				//},
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false,
+						"id" : "psychicElemental",
+						"permanent" : false,
+						//"summonByHealth": true,
+						"type" : "core:summon"
+					}
+				}
+			},
+			"none" : {
+				"cost" : 50,
+				"power" : 1
+				//				"aiValue": 10
+			},
+			"basic" : {
+				"description" : "{Basic Summon Psychic Elemental}\r\n\r\nAllows you to summon Psychic Elementals.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"cost" : 40,
+				"power" : 2
+				//				"aiValue": 10
+			},
+			"advanced" : {
+				"description" : "{Advanced Summon Psychic Elemental}\r\n\r\nAllows you to summon Psychic Elementals.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"cost" : 40,
+				"power" : 3
+				//				"aiValue": 10
+			},
+			"expert" : {
+				"description" : "{Expert Summon Psychic Elemental}\r\n\r\nAllows you to summon Psychic Elementals.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"cost" : 40,
+				"power" : 4
+				//				"aiValue": 10
+			}
+		}
+	}
 }

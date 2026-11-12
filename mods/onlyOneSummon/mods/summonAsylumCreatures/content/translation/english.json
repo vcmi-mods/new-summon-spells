@@ -1,0 +1,6 @@
+{
+	"spell.asylum-town.summonJester.description.advanced" : "{Advanced Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned.",
+	"spell.asylum-town.summonJester.description.basic" : "{Basic Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned.",
+	"spell.asylum-town.summonJester.description.expert" : "{Expert Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned.",
+	"spell.asylum-town.summonJester.description.none" : "{Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned."
+}

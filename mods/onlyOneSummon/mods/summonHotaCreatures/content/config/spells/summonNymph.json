@@ -1,26 +1,26 @@
 {
-    "new-summon-spells.summonhotacreatures:summonNymph": {
-        "levels": {
-            "base": {
-                "description": "{Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, no other creatures can be summoned.",
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": true,
-                        "id": "hota.cove:nymph",
-                        "permanent": false,
-                        "type": "core:summon"
-                    }
-                }
-            },
-            "basic": {
-				"description": "{Basic Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "advanced": {
-				"description": "{Advanced Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, no other creatures can be summoned."
-            },
-            "expert": {
-				"description": "{Expert Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, no other creatures can be summoned."
-            }
-        }
-    }
+	"new-summon-spells.summonhotacreatures:summonNymph" : {
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, no other creatures can be summoned.",
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "hota.cove:nymph",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
+			},
+			"basic" : {
+				"description" : "{Basic Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"advanced" : {
+				"description" : "{Advanced Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"expert" : {
+				"description" : "{Expert Summon Nymph}\r\n\r\nAllows you to summon Nymphs.\r\n\r\nOnce cast, no other creatures can be summoned."
+			}
+		}
+	}
 }

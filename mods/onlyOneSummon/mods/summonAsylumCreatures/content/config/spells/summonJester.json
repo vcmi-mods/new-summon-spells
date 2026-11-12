@@ -5,24 +5,24 @@
 				"description" : "{Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned.",
 				"battleEffects" : {
 					"summon" : {
-						"exclusive" :true,
-						"id" :"asylum-town:jesterDeliver",
-						"permanent" :false,
-						"type" :"core:summon"
+						"exclusive" : true,
+						"id" : "asylum-town:jesterDeliver",
+						"permanent" : false,
+						"type" : "core:summon"
 					}
 				}
 			},
 			"none" : {
-				"description": "{Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned."
+				"description" : "{Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
 			"basic" : {
-				"description": "{Basic Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned."
+				"description" : "{Basic Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
 			"advanced" : {
-				"description": "{Advanced Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned."
+				"description" : "{Advanced Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
 			"expert" : {
-				"description": "{Expert Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned."
+				"description" : "{Expert Summon Jester}\r\n\r\nAllows you to summon Jester.\r\n\r\nOnce cast, no other creatures can be summoned."
 			}
 		}
 	}

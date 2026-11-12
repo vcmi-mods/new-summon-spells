@@ -1,110 +1,110 @@
 {
-    "core:airElemental": {
-        "levels": {
-            "base": {
-				"description": "{Summon Air Elemental}\r\n\r\nAllows you to summon air elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": true,
-                        "id": "airElemental",
-                        "permanent": false,
-                        "type": "core:summon"
-                    }
-                }
-            },
-			"none": {
-				"description": "{Summon Air Elemental}\r\n\r\nAllows you to summon air elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+	"core:airElemental" : {
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Air Elemental}\r\n\r\nAllows you to summon air elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "airElemental",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
 			},
-			"basic": {
-				"description": "{Basic Summon Air Elemental}\r\n\r\nAllows you to summon air elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+			"none" : {
+				"description" : "{Summon Air Elemental}\r\n\r\nAllows you to summon air elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
-			"advanced": {
-				"description": "{Advanced Summon Air Elemental}\r\n\r\nAllows you to summon air elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+			"basic" : {
+				"description" : "{Basic Summon Air Elemental}\r\n\r\nAllows you to summon air elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
-			"expert": {
-				"description": "{Expert Summon Air Elemental}\r\n\r\nAllows you to summon air elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
+			"advanced" : {
+				"description" : "{Advanced Summon Air Elemental}\r\n\r\nAllows you to summon air elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"expert" : {
+				"description" : "{Expert Summon Air Elemental}\r\n\r\nAllows you to summon air elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			}
-        }
-    },
-    "core:earthElemental": {
-        "levels": {
-            "base": {
-				"description": "{Summon Earth Elemental}\r\n\r\nAllows you to summon earth elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": true,
-                        "id": "earthElemental",
-                        "permanent": false,
-                        "type": "core:summon"
-                    }
-                }
-            },
-			"none": {
-				"description": "{Summon Earth Elemental}\r\n\r\nAllows you to summon earth elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+		}
+	},
+	"core:earthElemental" : {
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Earth Elemental}\r\n\r\nAllows you to summon earth elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "earthElemental",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
 			},
-			"basic": {
-				"description": "{Basic Summon Earth Elemental}\r\n\r\nAllows you to summon earth elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+			"none" : {
+				"description" : "{Summon Earth Elemental}\r\n\r\nAllows you to summon earth elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
-			"advanced": {
-				"description": "{Advanced Summon Earth Elemental}\r\n\r\nAllows you to summon earth elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+			"basic" : {
+				"description" : "{Basic Summon Earth Elemental}\r\n\r\nAllows you to summon earth elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
-			"expert": {
-				"description": "{Expert Summon Earth Elemental}\r\n\r\nAllows you to summon earth elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
+			"advanced" : {
+				"description" : "{Advanced Summon Earth Elemental}\r\n\r\nAllows you to summon earth elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"expert" : {
+				"description" : "{Expert Summon Earth Elemental}\r\n\r\nAllows you to summon earth elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			}
-        }
-    },
-    "core:fireElemental": {
-        "levels": {
-            "base": {
-				"description": "{Summon Fire Elemental}\r\n\r\nAllows you to summon fire elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": true,
-                        "id": "fireElemental",
-                        "permanent": false,
-                        "type": "core:summon"
-                    }
-                }
-            },
-			"none": {
-				"description": "{Summon Fire Elemental}\r\n\r\nAllows you to summon fire elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+		}
+	},
+	"core:fireElemental" : {
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Fire Elemental}\r\n\r\nAllows you to summon fire elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "fireElemental",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
 			},
-			"basic": {
-				"description": "{Basic Summon Fire Elemental}\r\n\r\nAllows you to summon fire elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+			"none" : {
+				"description" : "{Summon Fire Elemental}\r\n\r\nAllows you to summon fire elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
-			"advanced": {
-				"description": "{Advanced Summon Fire Elemental}\r\n\r\nAllows you to summon fire elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+			"basic" : {
+				"description" : "{Basic Summon Fire Elemental}\r\n\r\nAllows you to summon fire elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
-			"expert": {
-				"description": "{Expert Summon Fire Elemental}\r\n\r\nAllows you to summon fire elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
+			"advanced" : {
+				"description" : "{Advanced Summon Fire Elemental}\r\n\r\nAllows you to summon fire elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"expert" : {
+				"description" : "{Expert Summon Fire Elemental}\r\n\r\nAllows you to summon fire elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			}
-        }
-    },
-    "core:waterElemental": {
-        "levels": {
-            "base": {
-				"description": "{Summon Water Elemental}\r\n\r\nAllows you to summon water elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": true,
-                        "id": "waterElemental",
-                        "permanent": false,
-                        "type": "core:summon"
-                    }
-                }
-            },
-			"none": {
-				"description": "{Summon Water Elemental}\r\n\r\nAllows you to summon water elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+		}
+	},
+	"core:waterElemental" : {
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Water Elemental}\r\n\r\nAllows you to summon water elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "waterElemental",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
 			},
-			"basic": {
-				"description": "{Basic Summon Water Elemental}\r\n\r\nAllows you to summon water elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+			"none" : {
+				"description" : "{Summon Water Elemental}\r\n\r\nAllows you to summon water elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
-			"advanced": {
-				"description": "{Advanced Summon Water Elemental}\r\n\r\nAllows you to summon water elementals.\r\n\r\nOnce cast, no other creatures can be summoned.",
+			"basic" : {
+				"description" : "{Basic Summon Water Elemental}\r\n\r\nAllows you to summon water elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			},
-			"expert": {
-				"description": "{Expert Summon Water Elemental}\r\n\r\nAllows you to summon water elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
+			"advanced" : {
+				"description" : "{Advanced Summon Water Elemental}\r\n\r\nAllows you to summon water elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
+			},
+			"expert" : {
+				"description" : "{Expert Summon Water Elemental}\r\n\r\nAllows you to summon water elementals.\r\n\r\nOnce cast, no other creatures can be summoned."
 			}
-        }
-    }
+		}
+	}
 }

@@ -1,80 +1,80 @@
 {
-    "summonStormbird": {
-        "type": "combat",
-        "name": "Stormbird",
-        "school": {
-            "air": false,
-            "earth": false,
-            "fire": false,
-            "water": true
-        },
-        "level": 4,
-        "power": 20,
-        "defaultGainChance": 4,
-        "gainChance": {
-            "cove": 12
-        },
-        "flags": {
-            "indifferent": true
-        },
-        "graphics": {
-            "iconBook": "AnotherSummon/stormbird_iconBook",
-            "iconScroll": "AnotherSummon/stormbird_iconScroll",
-            "iconScenarioBonus": "AnotherSummon/stormbird_iconScenario",
-            "iconEffect": "AnotherSummon/stormbird_iconEffect"
-        },
-        "animation": {
-            "cast": [
-                "C12SPF0.def"
-            ]
-        },
-        "sounds": {
-            "cast": "SUMNELM"
-        },
-        "targetType": "NO_TARGET",
-        "levels": {
-            "base": {
-                "description": "{Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "range": "X",
-                "cost": 26,
-                "power": 1,
-//				"aiValue": 10,
-                //"targetModifier": {
-                //    "smart": true
-                //},
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": false,
-                        "id": "hota.cove:stormbird",
-                        "permanent": false,
-                        //"summonByHealth": true,
-                        "type": "core:summon"
-                    }
-                }
-            },
-            "none": {
-                "cost": 26,
-                "power": 1,
-//				"aiValue": 10
-            },
-            "basic": {
-				"description": "{Basic Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 22,
-                "power": 2,
-//				"aiValue": 11
-            },
-            "advanced": {
-				"description": "{Advanced Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 18,
-                "power": 3,
-//				"aiValue": 12
-            },
-            "expert": {
-				"description": "{Expert Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 14,
-                "power": 4,
-//				"aiValue": 13
-            }
-        }
-    }
+	"summonStormbird" : {
+		"type" : "combat",
+		"name" : "Stormbird",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
+		},
+		"level" : 4,
+		"power" : 20,
+		"defaultGainChance" : 4,
+		"gainChance" : {
+			"cove" : 12
+		},
+		"flags" : {
+			"indifferent" : true
+		},
+		"graphics" : {
+			"iconBook" : "AnotherSummon/stormbird_iconBook",
+			"iconScroll" : "AnotherSummon/stormbird_iconScroll",
+			"iconScenarioBonus" : "AnotherSummon/stormbird_iconScenario",
+			"iconEffect" : "AnotherSummon/stormbird_iconEffect"
+		},
+		"animation" : {
+			"cast" : [
+				"C12SPF0.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "SUMNELM"
+		},
+		"targetType" : "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"range" : "X",
+				"cost" : 26,
+				"power" : 1,
+				//				"aiValue": 10,
+				//"targetModifier": {
+				//    "smart": true
+				//},
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false,
+						"id" : "hota.cove:stormbird",
+						"permanent" : false,
+						//"summonByHealth": true,
+						"type" : "core:summon"
+					}
+				}
+			},
+			"none" : {
+				"cost" : 26,
+				"power" : 1
+				//				"aiValue": 10
+			},
+			"basic" : {
+				"description" : "{Basic Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"cost" : 22,
+				"power" : 2
+				//				"aiValue": 11
+			},
+			"advanced" : {
+				"description" : "{Advanced Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"cost" : 18,
+				"power" : 3
+				//				"aiValue": 12
+			},
+			"expert" : {
+				"description" : "{Expert Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
+				"cost" : 14,
+				"power" : 4
+				//				"aiValue": 13
+			}
+		}
+	}
 }

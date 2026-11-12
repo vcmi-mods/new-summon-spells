@@ -1,80 +1,80 @@
 {
-    "summonWight": {
-        "type": "combat",
-        "name": "Wight",
-        "school": {
-            "air": false,
-            "earth": true,
-            "fire": false,
-            "water": false
-        },
-        "level": 3,
-        "power": 10,
-        "defaultGainChance": 4,
-        "gainChance": {
-            "necropolis": 12
-        },
-        "flags": {
-            "indifferent": true
-        },
-        "graphics": {
-            "iconBook": "wight/spellBook",
-            "iconScroll": "wight/spellScroll",
-            "iconScenarioBonus": "wight/bonusSpell",
-            "iconEffect": "wight/spellEffect"
-        },
-        "animation": {
-            "cast": [
-                "C12SPF0.def"
-            ]
-        },
-        "sounds": {
-            "cast": "SUMNELM"
-        },
-        "targetType": "NO_TARGET",
-        "levels": {
-            "base": {
-                "description": "{Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
-                "range": "X",
-                "cost": 18,
-                "power": 3,
-//				"aiValue": 10,
-                //"targetModifier": {
-                //    "smart": true
-                //},
-                "battleEffects": {
-                    "summon": {
-                        "exclusive": false,
-                        "id": "wight",
-                        "permanent": false,
-                        //"summonByHealth": true,
-                        "type": "core:summon"
-                    }
-                }
-            },
-            "none": {
-                "cost": 18,
-                "power": 1,
-//				"aiValue": 10
-            },
-            "basic": {
-				"description": "{Basic Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
-                "cost": 14,
-                "power": 2,
-//				"aiValue": 11
-            },
-            "advanced": {
-				"description": "{Advanced Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
-                "cost": 14,
-                "power": 3,
-//				"aiValue": 12
-            },
-            "expert": {
-				"description": "{Expert Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
-                "cost": 14,
-                "power": 4,
-//				"aiValue": 13
-            }
-        }
-    }
+	"summonWight" : {
+		"type" : "combat",
+		"name" : "Wight",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 3,
+		"power" : 10,
+		"defaultGainChance" : 4,
+		"gainChance" : {
+			"necropolis" : 12
+		},
+		"flags" : {
+			"indifferent" : true
+		},
+		"graphics" : {
+			"iconBook" : "wight/spellBook",
+			"iconScroll" : "wight/spellScroll",
+			"iconScenarioBonus" : "wight/bonusSpell",
+			"iconEffect" : "wight/spellEffect"
+		},
+		"animation" : {
+			"cast" : [
+				"C12SPF0.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "SUMNELM"
+		},
+		"targetType" : "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
+				"range" : "X",
+				"cost" : 18,
+				"power" : 3,
+				//				"aiValue": 10,
+				//"targetModifier": {
+				//    "smart": true
+				//},
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false,
+						"id" : "wight",
+						"permanent" : false,
+						//"summonByHealth": true,
+						"type" : "core:summon"
+					}
+				}
+			},
+			"none" : {
+				"cost" : 18,
+				"power" : 1
+				//				"aiValue": 10
+			},
+			"basic" : {
+				"description" : "{Basic Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
+				"cost" : 14,
+				"power" : 2
+				//				"aiValue": 11
+			},
+			"advanced" : {
+				"description" : "{Advanced Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
+				"cost" : 14,
+				"power" : 3
+				//				"aiValue": 12
+			},
+			"expert" : {
+				"description" : "{Expert Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
+				"cost" : 14,
+				"power" : 4
+				//				"aiValue": 13
+			}
+		}
+	}
 }
